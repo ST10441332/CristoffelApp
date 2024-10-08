@@ -4,7 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator, NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { Picker } from '@react-native-picker/picker';
 
-//import image from '';
+
 
 
 
@@ -121,6 +121,8 @@ function AddItem({ navigation }: ScreenProps<'AddItem'>) {
   const [dishDescription, setDishDescription] = useState(''); 
   const[dishPrice,setPrice] = useState(0);
   const courseArr=[
+
+    //dish arrays
     {id:1,name:'Hors D’Oeuvre', type:'Hors D’Oeuvre'},
     {id:2,name:'Amuse-Bouche', type:'Amuse-Bouche'},
     {id:3,name:'Soup', type:'Soup'},

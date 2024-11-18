@@ -4,7 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator, NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { Picker } from '@react-native-picker/picker';
 
-//import image from '';
+
 
 
 
@@ -121,6 +121,8 @@ function AddItem({ navigation }: ScreenProps<'AddItem'>) {
   const [dishDescription, setDishDescription] = useState(''); 
   const[dishPrice,setPrice] = useState(0);
   const courseArr=[
+//use the courses from the web sir gave -> in notes
+    //dish arrays
     {id:1,name:'Hors D’Oeuvre', type:'Hors D’Oeuvre'},
     {id:2,name:'Amuse-Bouche', type:'Amuse-Bouche'},
     {id:3,name:'Soup', type:'Soup'},
@@ -135,7 +137,7 @@ function AddItem({ navigation }: ScreenProps<'AddItem'>) {
     {id:12,name:'Mignardise',type:'Mignardise'},
     
   ];
-
+//messages for things not being filled and if everything is filled
   const saveItem = () => {
     if (dishName && course && dishDescription&& dishPrice) {
       setDishList([...dishList, { name: dishName, course: course, description: dishDescription, price:dishPrice }]);

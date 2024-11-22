@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'flex-start',
         alignItems: 'center',
-        backgroundColor: '#a4330d',
+        backgroundColor: '#5e3c2c',
         marginTop: 50, 
         width:'100%',
         padding:50,
@@ -36,8 +36,21 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         textAlign: 'center',
       },
+      h3:{
+        width:400,
+        height:20,
+
+        marginTop:0,
+        fontSize: 15,
+        fontWeight: 'bold',
+        textAlign: 'center',
+        backgroundColor:'#BEBEBE',
+        borderRadius:10,
+        alignSelf: 'center',
+
+      },
       button: {
-        backgroundColor: '#5e3c2c',
+        backgroundColor: '#dbcdb5',
         padding: 15,
         borderRadius: 5,
         marginVertical: 10,
@@ -50,7 +63,7 @@ const styles = StyleSheet.create({
 
   
     loginContainer: {
-      backgroundColor: 'white',
+      backgroundColor: '##dbcdb5',
       padding: 20,
       borderRadius: 8,
       width: '80%',
@@ -89,7 +102,7 @@ const styles = StyleSheet.create({
       fontSize: 16,
     },
     continueButton: {
-      backgroundColor: '#4a90e2',//blue
+      backgroundColor: '#6c9e4f',
       padding: 15,
       borderRadius: 4,
       alignItems: 'center',
@@ -102,7 +115,7 @@ const styles = StyleSheet.create({
     formContainer: {
       flex: 1,
       padding: 20,
-      backgroundColor: '#f0f0f0',
+      backgroundColor: '#dbcdb5',
     },
     formTitle: {
       fontSize: 20,
@@ -112,7 +125,7 @@ const styles = StyleSheet.create({
     },
   
     confirmButton: {
-      backgroundColor: '#e0e0e0',
+      backgroundColor: '#6c9e4f',
       padding: 15,
       borderRadius: 5,
       alignItems: 'center',
@@ -122,12 +135,7 @@ const styles = StyleSheet.create({
     confirmButtonText: {
       fontWeight: 'bold',
     },
-    pickerContainer:{
-      borderRadius:20,
-      backgroundColor:'dodgerblue',
-      margin:10,
-      overflow:'hidden',
-    },
+    
     picker:{
       width:400,
       height: 70,
@@ -194,7 +202,13 @@ const styles = StyleSheet.create({
       fontSize: 20,
       fontWeight: 'bold',
       textAlign: 'right',
-      color: '#2ecc71',//diff green
+      color: '#6c9e4f',//diff green
+      backgroundColor: 'white', // Light gray background
+      paddingHorizontal: 15,
+      paddingVertical: 10,
+      borderRadius: 10, // Added border radius
+      alignSelf: 'flex-end', // Align to the right side
+      marginRight: 16, // Add some margin from the right edge
     },
     emptyListContainer: {
       padding: 32,
@@ -213,7 +227,7 @@ const styles = StyleSheet.create({
       flex: 1,
     },
     deleteButton: {
-      backgroundColor: '#ff4444',
+      backgroundColor: '#a4330d',
       padding: 15,
       borderRadius: 8,
       alignItems: 'center',
@@ -286,7 +300,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
   saveChangesButton: {
-    backgroundColor: '#4CAF50',//green
+    backgroundColor: '#6c9e4f',//green
     padding: 15,
     borderRadius: 5,
     alignItems: 'center',
@@ -304,7 +318,7 @@ const styles = StyleSheet.create({
     textTransform: 'uppercase',
   },
   deleteDishButton: {
-    backgroundColor: '#f44336',//red
+    backgroundColor: '#a4330d',//red
     padding: 15,
     borderRadius: 5,
     alignItems: 'center',

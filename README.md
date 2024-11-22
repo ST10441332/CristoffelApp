@@ -1,11 +1,12 @@
+Restaurant Management App
+This React Native application is designed for restaurant management, specifically for Christoffel's restaurant. It provides features for both customers and staff, including menu viewing and chef-specific functionalities.
+
 Features
-
-Home Screen: The home screen warmly welcomes users and provides them with easy-to-navigate options to explore the app's various features.  
-Menu Viewing: This section allows customers to browse through the restaurant's full menu, offering a detailed view of each dish available for order.  
-Chef Login: A secure login portal specifically designed for kitchen staff to ensure only authorized personnel can access chef-related functions.  
-Add Menu Items: A feature that enables chefs to seamlessly add new dishes to the restaurant's menu, ensuring the menu stays up to date.  
-Edit Menu Items: Functionality that will allow chefs to modify or update existing menu items, which is planned to be implemented in future updates.
-
+Home Screen: Welcomes users and provides navigation options.
+Menu Viewing: Allows customers to view the restaurant's menu.
+Chef Login: Secure login for kitchen staff.
+Add Menu Items: Chefs can add new dishes to the menu.
+Edit Menu Items: Functionality for modifying existing menu items (to be implemented).
 Installation
 Ensure you have Node.js and npm installed on your system.
 Install React Native CLI globally:
@@ -36,9 +37,52 @@ Menu.js: Customer-facing menu view
 AddItem.js: Interface for adding new menu items
 EditItem.js: Interface for editing existing menu items (to be implemented)
 
+Changelog
+[Unreleased]
+Planned
+Implement EditItem functionality for modifying existing menu items
+
+Add user roles and permissions for different staff members
+
+Integrate with a backend database for persistent storage
+
+
+###Added
+
+styling and css
+filter system for menu
+
+Added
+AddItem screen for chefs to add new menu items
+Functionality to display list of added menu items
+Total cost calculation for added items
+Changed
+Improved styling across all screens for better user experience
+Fixed
+Navigation issues between Home and Login screens
+
+Added
+Basic Menu viewing capability for customers
+Changed
+Refactored navigation structure for better performance
+
+Added
+Chef Login functionality with basic authentication
+Navigation between different screens using React Navigation
+Implemented Home screen with welcome message and navigation buttons
+
+Added
+Set up React Native project structure
+Implemented basic app skeleton with placeholder screens
+Changed
+Updated project dependencies to latest versions
+Added
+Initial project setup
+Created project repository
+Added README with basic project description
+##[0.0]
+
 refrences
 The IIE.2024.Mobile App Scripting [MAST5112 Module Manual]. The Idnependent Instatute of Education: unpublished
-
+React Native. 2024. [SourceCode].https://reactnative.dev [accessed October 6 2024].
 NPM.2024. @react-native-picker/picker [source code] https://www.npmjs.com/package/@react-native-picker/picker [accessed October 7 2024]
-
-React Native. 2024. [SourceCode].https://reactnative.dev [accessed October 7 2024].

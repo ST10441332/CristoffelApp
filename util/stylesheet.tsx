@@ -363,6 +363,19 @@ const styles = StyleSheet.create({
     fontSize: 16,
     width: '50%',
   },
+  pickerContainer: {
+    marginVertical: 10,
+    borderWidth: 1,
+    borderColor: '#ddd',
+    borderRadius: 5,
+    backgroundColor: 'rgba(255,255,255,1)',
+  },
+  pickerInput: {
+    fontSize: 16,
+    paddingVertical: 12,
+    paddingHorizontal: 10,
+    color: 'black',
+  },
   });
 
   export default styles;

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { View, Text, TouchableOpacity, TextInput, ScrollView, Alert} from 'react-native';
+import { View, Text, TouchableOpacity, TextInput, ScrollView, Alert, ImageBackground} from 'react-native';
 import { Picker } from '@react-native-picker/picker';
 import styles from '../util/stylesheet';
 import  {saveItem, getData} from '../Components/menuItem'; 
@@ -137,7 +137,6 @@ function AddItem({navigation}:AddItemScreenProps) {
           }}>
           <Text style={styles.confirmButtonText}>Save</Text>
         </TouchableOpacity>
-        
         <Text style={styles.h2}>Dish List:</Text>
         {dishList.map((item, index) => {
           const customerName = customers.find(c => c.id === item.customerId)?.name || "Unknown customer";
@@ -149,7 +148,8 @@ function AddItem({navigation}:AddItemScreenProps) {
         })}
 
         <Text style={styles.h2}>Total Cost: R{totalCost.toString()}</Text> 
-      </View>
+       
+        </View>
     </ScrollView>
   );
 }

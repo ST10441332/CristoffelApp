@@ -10,6 +10,10 @@ type CustomerScreenProps = {
 
 function CustomerScreen({ navigation }: CustomerScreenProps) {
   return (
+
+    
+
+   
     <View style={styles.container}>
       <TouchableOpacity 
         style={styles.button} 
